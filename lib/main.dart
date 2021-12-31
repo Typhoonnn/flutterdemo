@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "hello, flutter",
-      home: const HomePage(),
+      home: HomePage(),
       routes: {
         "/imgList": (context) => const ImgList(),
         "/detail": (context) => const Detail()
@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 
 // class MyApp extends StatelessWidget {
 //   const MyApp({Key? key}) : super(key: key);
