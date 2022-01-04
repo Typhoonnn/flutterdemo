@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         "/imgList": (context) => const ImgList(),
-        "/detail": (context) => const Detail()
+        "/detail": (context) => Detail()
       },
     );
   }
